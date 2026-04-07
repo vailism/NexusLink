@@ -20,12 +20,12 @@ NexusLink is designed with strict boundaries between its event loops, network th
 
 ```mermaid
 graph TD
-    UI[GUI Thread (Dear ImGui + GLFW)] -->|Event Polling| SM(State Machine)
-    SM -->|Mutates| Core[Core Application Context]
-    Core -->|Dispatches| N_UDP(UDP Discovery Worker)
-    Core -->|Spawns| N_TCP(TCP Session Handlers)
-    N_TCP <-->|Asynchronous I/O| FS(File I/O Streamer)
-    N_TCP <-->|Raw Bytes| Crypto(Encryption Interceptor)
+    UI["GUI Thread (Dear ImGui + GLFW)"] -->|Event Polling| SM("State Machine")
+    SM -->|Mutates| Core["Core Application Context"]
+    Core -->|Dispatches| N_UDP("UDP Discovery Worker")
+    Core -->|Spawns| N_TCP("TCP Session Handlers")
+    N_TCP <-->|Asynchronous I/O| FS("File I/O Streamer")
+    N_TCP <-->|Raw Bytes| Crypto("Encryption Interceptor")
 ```
 
 ### Core Abstractions
