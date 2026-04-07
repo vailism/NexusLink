@@ -1,0 +1,105 @@
+[Sat Apr  4 15:48:40 2026] [INFO] Server listening on port 4040
+[Sat Apr  4 15:48:53 2026] [INFO] Received from client: hello-step1
+[Sat Apr  4 15:48:53 2026] [INFO] ACK sent to client.
+[Sat Apr  4 15:48:53 2026] [INFO] Sent to server: hello-step1
+[Sat Apr  4 15:48:53 2026] [INFO] Received from server: ACK: hello-step1
+[Sat Apr  4 15:51:43 2026] [INFO] Server listening on port 4040
+[Sat Apr  4 15:51:56 2026] [INFO] Chat session started. Type /quit from client to close.
+[Sat Apr  4 15:51:56 2026] [INFO] Connected. Enter messages, use /quit to exit.
+[Sat Apr  4 15:51:56 2026] [INFO] Client: hello
+[Sat Apr  4 15:51:56 2026] [INFO] Server: Server echo: hello
+[Sat Apr  4 15:51:56 2026] [INFO] Client: second message
+[Sat Apr  4 15:51:56 2026] [INFO] Server: Server echo: second message
+[Sat Apr  4 15:51:56 2026] [INFO] Client: /quit
+[Sat Apr  4 15:51:56 2026] [INFO] Session closed by client.
+[Sat Apr  4 15:51:56 2026] [INFO] Server: Server closing session.
+[Sat Apr  4 15:58:47 2026] [INFO] Server listening on port 4040
+[Sat Apr  4 15:59:06 2026] [INFO] Accepted client #1
+[Sat Apr  4 15:59:06 2026] [INFO] Accepted client #2
+[Sat Apr  4 15:59:06 2026] [INFO] Client #1 chat session started.
+[Sat Apr  4 15:59:06 2026] [INFO] Client #2 chat session started.
+[Sat Apr  4 15:59:06 2026] [INFO] Connected. Enter messages, use /quit to exit.
+[Sat Apr  4 15:59:06 2026] [INFO] Connected. Enter messages, use /quit to exit.
+[Sat Apr  4 15:59:06 2026] [INFO] Client #2: c2-msg1
+[Sat Apr  4 15:59:06 2026] [INFO] Client #1: c1-msg1
+[Sat Apr  4 15:59:06 2026] [INFO] Server: Server echo: c2-msg1
+[Sat Apr  4 15:59:06 2026] [INFO] Server: Server echo: c1-msg1
+[Sat Apr  4 15:59:06 2026] [INFO] Client #2: c2-msg2
+[Sat Apr  4 15:59:06 2026] [INFO] Client #1: c1-msg2
+[Sat Apr  4 15:59:06 2026] [INFO] Server: Server echo: c2-msg2
+[Sat Apr  4 15:59:06 2026] [INFO] Server: Server echo: c1-msg2
+[Sat Apr  4 15:59:06 2026] [INFO] Client #2: /quit
+[Sat Apr  4 15:59:06 2026] [INFO] Client #1: /quit
+[Sat Apr  4 15:59:06 2026] [INFO] Client #1 closed session.
+[Sat Apr  4 15:59:06 2026] [INFO] Client #2 closed session.
+[Sat Apr  4 15:59:06 2026] [INFO] Server: Server closing session.
+[Sat Apr  4 15:59:06 2026] [INFO] Server: Server closing session.
+[Sat Apr  4 16:05:04 2026] [INFO] Server listening on port 4041
+[Sat Apr  4 16:05:18 2026] [INFO] Accepted client #1
+[Sat Apr  4 16:05:18 2026] [INFO] Client #1 chat session started.
+[Sat Apr  4 16:05:18 2026] [INFO] Connected. Enter messages, use /quit to exit, /send <filename> to upload from data/uploads.
+[Sat Apr  4 16:05:18 2026] [INFO] Client #1: hello-before-file
+[Sat Apr  4 16:05:18 2026] [INFO] Server: Server echo: hello-before-file
+[Sat Apr  4 16:05:18 2026] [INFO] Client sending sample.txt 100% (36/36 bytes)
+[Sat Apr  4 16:05:18 2026] [INFO] Client #1 receiving sample.txt 100% (36/36 bytes)
+[Sat Apr  4 16:05:18 2026] [INFO] Client #1 transfer complete: data/downloads/sample.txt
+[Sat Apr  4 16:05:18 2026] [INFO] Server: Server stored file at data/downloads/sample.txt
+[Sat Apr  4 16:05:18 2026] [INFO] Client #1: /quit
+[Sat Apr  4 16:05:18 2026] [INFO] Client #1 closed session.
+[Sat Apr  4 16:05:18 2026] [INFO] Server: Server closing session.
+[2026-04-04 16:12:24.241] [INFO] [tid=8672051753691970780] Server listening on port 4042
+[2026-04-04 16:12:37.004] [INFO] [tid=8672051753691970780] Accepted client #1
+[2026-04-04 16:12:37.005] [INFO] [tid=11243095285252819487] Client #1 chat session started.
+[2026-04-04 16:12:37.004] [INFO] [tid=8672051753691970780] Connected. Enter messages, use /quit to exit, /send <filename> to upload from data/uploads.
+[2026-04-04 16:12:37.005] [INFO] [tid=11243095285252819487] Client #1: log-test
+[2026-04-04 16:12:37.005] [INFO] [tid=8672051753691970780] Server: Server echo: log-test
+[2026-04-04 16:12:37.005] [INFO] [tid=11243095285252819487] Client #1: /quit
+[2026-04-04 16:12:37.005] [INFO] [tid=11243095285252819487] Client #1 closed session.
+[2026-04-04 16:12:37.005] [INFO] [tid=8672051753691970780] Server: Server closing session.
+[2026-04-04 16:13:54.397] [INFO] [tid=8672051753691970780] Server listening on port 4043
+[2026-04-04 16:14:08.036] [INFO] [tid=8672051753691970780] Accepted client #1
+[2026-04-04 16:14:08.036] [INFO] [tid=15969768656951275999] Client #1 chat session started.
+[2026-04-04 16:14:08.036] [INFO] [tid=8672051753691970780] Connected. Enter messages, use /quit to exit, /send <filename> to upload from data/uploads.
+[2026-04-04 16:14:08.036] [INFO] [tid=15969768656951275999] Client #1: enc-chat
+[2026-04-04 16:14:08.036] [INFO] [tid=8672051753691970780] Server: Server echo: enc-chat
+[2026-04-04 16:14:08.037] [INFO] [tid=8672051753691970780] Client sending sample.txt 100% (36/36 bytes)
+[2026-04-04 16:14:08.037] [INFO] [tid=15969768656951275999] Client #1 receiving sample.txt 100% (36/36 bytes)
+[2026-04-04 16:14:08.038] [INFO] [tid=15969768656951275999] Client #1 transfer complete: data/downloads/sample.txt
+[2026-04-04 16:14:08.038] [INFO] [tid=8672051753691970780] Server: Server stored file at data/downloads/sample.txt
+[2026-04-04 16:14:08.038] [INFO] [tid=15969768656951275999] Client #1: /quit
+[2026-04-04 16:14:08.038] [INFO] [tid=15969768656951275999] Client #1 closed session.
+[2026-04-04 16:14:08.038] [INFO] [tid=8672051753691970780] Server: Server closing session.
+[2026-04-04 16:17:56.682] [ERROR] [tid=8672051753691970780] Server setup failed.
+[2026-04-04 16:18:15.124] [INFO] [tid=8672051753691970780] Server listening on port 4043
+[2026-04-04 16:18:25.477] [INFO] [tid=8672051753691970780] Accepted client #1
+[2026-04-04 16:18:25.477] [INFO] [tid=15892151030339143523] Client #1 chat session started.
+[2026-04-04 16:18:25.477] [INFO] [tid=8672051753691970780] Connected. Enter messages, use /quit to exit, /send <filename> to upload from data/uploads.
+[2026-04-04 16:18:25.477] [INFO] [tid=15892151030339143523] Client #1: enc-chat
+[2026-04-04 16:18:25.477] [INFO] [tid=8672051753691970780] Server: Server echo: enc-chat
+[2026-04-04 16:18:25.478] [INFO] [tid=8672051753691970780] Client sending sample.txt 100% (36/36 bytes)
+[2026-04-04 16:18:25.478] [INFO] [tid=15892151030339143523] Client #1 receiving sample.txt 100% (36/36 bytes)
+[2026-04-04 16:18:25.478] [INFO] [tid=15892151030339143523] Client #1 transfer complete: data/downloads/sample.txt
+[2026-04-04 16:18:25.478] [INFO] [tid=8672051753691970780] Server: Server stored file at data/downloads/sample.txt
+[2026-04-04 16:18:25.478] [INFO] [tid=15892151030339143523] Client #1: /quit
+[2026-04-04 16:18:25.478] [INFO] [tid=15892151030339143523] Client #1 closed session.
+[2026-04-04 16:18:25.478] [INFO] [tid=8672051753691970780] Server: Server closing session.
+[2026-04-04 16:19:50.771] [INFO] [tid=8672051753691970780] Server listening on port 4044
+[2026-04-04 16:20:01.045] [INFO] [tid=8672051753691970780] Accepted client #1
+[2026-04-04 16:20:01.045] [INFO] [tid=7182682370695438524] Client #1 chat session started.
+[2026-04-04 16:20:01.045] [INFO] [tid=8672051753691970780] Connected. Enter messages, use /quit to exit, /send <filename> to upload from data/uploads.
+[2026-04-04 16:20:01.045] [INFO] [tid=7182682370695438524] Client #1: show-run
+[2026-04-04 16:20:01.045] [INFO] [tid=8672051753691970780] Server: Server echo: show-run
+[2026-04-04 16:20:01.045] [INFO] [tid=7182682370695438524] Client #1: /quit
+[2026-04-04 16:20:01.045] [INFO] [tid=7182682370695438524] Client #1 closed session.
+[2026-04-04 16:20:01.045] [INFO] [tid=8672051753691970780] Server: Server closing session.
+[2026-04-04 16:22:21.164] [ERROR] [tid=8672051753691970780] GUI build is disabled. Rebuild with NEXUSLINK_ENABLE_GUI and Dear ImGui + GLFW dependencies.
+[2026-04-04 16:48:04.653] [INFO] [tid=8672051753691970780] Server listening on port 4050
+[2026-04-04 17:09:00.554] [INFO] [tid=7456101319477948013] Client #1 chat session started.
+[2026-04-04 17:09:03.671] [INFO] [tid=7456101319477948013] Client #1: CHAT:Vailism:hi
+[2026-04-04 17:11:59.506] [INFO] [tid=18416632735169006385] Client #2 chat session started.
+[2026-04-04 17:12:01.850] [INFO] [tid=18416632735169006385] Client #2: TYPING:Vailism
+[2026-04-04 17:12:02.961] [INFO] [tid=18416632735169006385] Client #2: CHAT:Vailism:hi
+[2026-04-04 17:12:05.826] [INFO] [tid=18416632735169006385] Client #2: /quit
+[2026-04-04 17:12:05.827] [INFO] [tid=18416632735169006385] Client #2 closed session.
+[2026-04-04 17:12:07.979] [INFO] [tid=7456101319477948013] Client #1: /quit
+[2026-04-04 17:12:07.979] [INFO] [tid=7456101319477948013] Client #1 closed session.

@@ -1,0 +1,7 @@
+/Users/goat/draft/build-gui/CMakeFiles/app.dir
+/Users/goat/draft/build-gui/CMakeFiles/package_dist.dir
+/Users/goat/draft/build-gui/CMakeFiles/smoke_test.dir
+/Users/goat/draft/build-gui/CMakeFiles/cleanup_legacy_builds.dir
+/Users/goat/draft/build-gui/CMakeFiles/package_macos_app.dir
+/Users/goat/draft/build-gui/CMakeFiles/edit_cache.dir
+/Users/goat/draft/build-gui/CMakeFiles/rebuild_cache.dir

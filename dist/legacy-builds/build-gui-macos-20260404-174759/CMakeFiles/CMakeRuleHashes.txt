@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+8d4b8984087c07c02c4b136a080ea4d8 CMakeFiles/cleanup_legacy_builds
+0fa790e7ea969077a14a7736ef0c762d CMakeFiles/package_dist
+5db5e900d6a385333e97921b1259617b CMakeFiles/package_macos_app
+a029565cfbc887cf671f22dfa74c8004 CMakeFiles/smoke_test

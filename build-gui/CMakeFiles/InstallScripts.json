@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/goat/draft/build-gui/cmake_install.cmake",
+		"/Users/goat/draft/build-gui/_deps/glfw-build/cmake_install.cmake",
+		"/Users/goat/draft/build-gui/_deps/glfw-build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

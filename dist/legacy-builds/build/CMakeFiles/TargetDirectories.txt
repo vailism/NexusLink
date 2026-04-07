@@ -1,0 +1,4 @@
+/Users/goat/draft/build/CMakeFiles/app.dir
+/Users/goat/draft/build/CMakeFiles/package_dist.dir
+/Users/goat/draft/build/CMakeFiles/edit_cache.dir
+/Users/goat/draft/build/CMakeFiles/rebuild_cache.dir
